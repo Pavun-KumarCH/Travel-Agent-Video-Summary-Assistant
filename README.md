@@ -91,7 +91,7 @@ To set up the project locally, follow these steps:
 Watch our project video to see the Travel Agent Video Summary Assistant in action:
 [![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
 ----------------------------------------------------------------
-[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+[![Watch the video](https://github.com/Pavun-KumarCH/Travel-Agent-Video-Summary-Assistant/blob/b70e0021c224b3dbbc77712f5303297b9eadec8c/assets/hawaii%20(1).gif)
 
 ### Screenshots
 Below are some screenshots of the application:
