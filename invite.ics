@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:GMT+5:30
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20241009T150000
+DTEND;TZID=Asia/Kolkata:20241009T153000
+DTSTAMP:20241008T114920Z
+ORGANIZER;CN=Prameena Mukka:mailto:prameena.mukka@xcubelabs.com
+UID:fdvo10ocvls5uh78h1dda3dnig@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=pavun9848@gmail.com;X-NUM-GUESTS=0:mailto:pavun9848@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/uoh-rpoi-gtt
+X-MICROSOFT-CDO-OWNERAPPTID:-385032932
+CREATED:20241008T114917Z
+DESCRIPTION:Dear Pavan Kumar\,\n\nIt was nice speaking to you and as discus
+ sed\, you are scheduled for an interview at [x]cube LABS for AI Engineer as
+  per the enclosed schedule.\n\nWhat we are looking for:\n https://jobs.klim
+ b.io/purpletalk/6705034ed20384d491ad6582\n\nAnd here is a little bit about 
+ us: https://jobs.klimb.io/purpletalk\n\nKlimb New Interview Tips for Candid
+ ates:\n- We recommend that you Accept Event Invitations \n- Inform ahead of
+  time in case of delay or change \n- Your actions will reflect your credibi
+ lity \nLearn more : http://www.klimb.io/interview-best-practices \n\nPlease
+  do not hesitate to reach out to us for any queries.\n\n\n\n\nBest regards\
+ ,\nPrameena  Mukka\nprameena.mukka@xcubelabs.com\n7702383227\n[x]cube LABS\
+ n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/uoh-rpoi-gt
+ t\nOr dial: (US) +1 650-980-7137 PIN: 904872726#\nMore phone numbers: https
+ ://tel.meet/uoh-rpoi-gtt?pin=2955917314485&hs=7\n\nLearn more about Meet at
+ : https://support.google.com/a/users/answer/9282720\n\nPlease do not edit t
+ his section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20241008T114917Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:[Candidate Invitation] Video Technical Interview of Pavan Kumar for
+  AI Engineer at [x]cube LABS
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

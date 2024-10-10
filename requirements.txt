@@ -1,0 +1,14 @@
+elevenlabs==0.2.27
+ollama
+youtube-search-python
+youtube_transcript_api  
+langchain 
+langchain_community 
+langchain_huggingface 
+transformers 
+torch 
+faiss-cpu
+ipykernel
+streamlit 
+python-dotenv
+pandas
