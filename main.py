@@ -10,7 +10,7 @@ from Components.transcript import extract_transcripts
 from Components.summarizer import generate_summaries
 from Components.DPR import encode_passage, faiss_vector_store, search_relevant_passages
 from Components.agent import generate_question
-from Components.itinerary import generate_itinerary  # Ensure this is correctly implemented
+from Components.itinerary import generate_itinerary, save_itinerary_to_doc  # Ensure this is correctly implemented
 
 # Suppress all warnings
 warnings.filterwarnings("ignore")
@@ -26,17 +26,23 @@ def initialize_dpr(videos_df):
 
 # Function to generate LLM response
 def generate_llm_response(query, context, LLM = "llama3.2"):
-    prompt = f"""
-You are a helpful travel guide assistant. Based on the following information, answer the question below.
+    prompt = f""" You are a knowledgeable and friendly travel guide assistant, ready to provide insightful recommendations and 
+                 answers based on the information given. Please consider the context carefully and answer 
+                 the question below with detailed and helpful information.
 
-### Context:
-{context}
+                 ### Context:
+                 {context}
 
-### Question:
-{query}
+                 ### Question:
+                 {query}
 
-### Answer:
-"""
+                 ### Instructions for Your Answer:
+                 - Provide a comprehensive response, including tips or suggestions if applicable.
+                 - Use a friendly and conversational tone to engage the user.
+                 - Ensure your answer is clear, concise, and directly addresses the question.
+
+                 ### Answer:
+                 """
     try:
         response = ollama.chat(model = LLM, messages=[{'role':'user', 'content': prompt}])
         return response['message']['content']
@@ -253,6 +259,16 @@ Enhance your travel planning experience with our intelligent video summarizer an
                 file_name='itinerary.txt',
                 mime='text/plain'
             )
+            # Download as DOCX
+            if st.button("📥 Download Itinerary as DOCX"):
+                save_itinerary_to_doc(itinerary_text)  # Save to a DOCX file
+                with open('itinerary.docx', 'rb') as doc_file:
+                    st.download_button(
+                        "📥 Click here to download the DOCX itinerary",
+                        data=doc_file,
+                        file_name='itinerary.docx',
+                        mime='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                    )
 
         # Chat Interface
         if not st.session_state['videos_df'].empty and 'Summary' in st.session_state['videos_df'].columns:
