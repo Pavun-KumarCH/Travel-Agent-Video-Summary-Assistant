@@ -90,19 +90,23 @@ To set up the project locally, follow these steps:
 ### Project Video
 Watch our project video to see the Travel Agent Video Summary Assistant in action:
 [![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
+----------------------------------------------------------------
+[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)](https://www.youtube.com/watch?v=your_video_id)
 
 ### Screenshots
 Below are some screenshots of the application:
 
-![Screenshot 1](path/to/screenshot1.png)
-*Description of Screenshot 1*
+![Screenshot 1](assets\screenshots\Screenshot 2024-10-10 122605.png)
+*Home Page*
 
-![Screenshot 2](path/to/screenshot2.png)
-*Description of Screenshot 2*
+![Screenshot 2](assets\screenshots\Screenshot 2024-10-10 120839.png)
+*Travel Agent page with personal preference's*
 
-![Screenshot 3](path/to/screenshot3.png)
-*Description of Screenshot 3*
-
+![Screenshot 3](assets\screenshots\Screenshot 2024-10-10 121234.png)
+*Summary Generation from the video's*
+ 
+![Screenshot 4](assets\screenshots\Screenshot 2024-10-10 121415.png)
+*Itinerary generation and Agentic Chat Model*
 
 ## Contributing
 

@@ -44,7 +44,7 @@ You are a helpful travel guide assistant. Based on the following information, an
 
 def main():
     # Set Streamlit page configuration
-    st.set_page_config(page_title="✈️ Travel Agent Video Summarizer", layout="wide", page_icon="🌎")
+    st.set_page_config(page_title="✈️ Travel Agent Video Summarizer with Ollama LLM's", layout="wide", page_icon="🌎")
     
     # Initialize session state for chat history, videos_df, faiss, generated_questions, and itinerary
     if 'chat_history' not in st.session_state:
@@ -59,7 +59,7 @@ def main():
         st.session_state['itinerary'] = ""
     
     # Sidebar - Navigation Menu and Logo
-    st.sidebar.image("logo.png")  # Display the logo in the sidebar
+    st.sidebar.image("./assets/logo.png")  # Display the logo in the sidebar
     menu = ["🏠 Home", "🤖 Travel Agent", "📧 Contact"]
     choice = st.sidebar.selectbox("Navigate", menu)
     
@@ -108,7 +108,7 @@ Enhance your travel planning experience with our intelligent video summarizer an
 
     # Travel Agent Page
     elif choice == "🤖 Travel Agent":
-        st.title("🌎 Travel Agent: Your Video Summary Companion")
+        st.title("🌎 Travel Agent: Your Video Summary Companion (Ollama LLM's)")
 
         # Sidebar Buttons for Travel Agent Functions
         st.sidebar.header("Travel Agent Controls")
