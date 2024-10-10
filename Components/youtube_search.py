@@ -45,9 +45,11 @@ def fetch_youtube_videos(destination, preferences, MIN_VIEWS, MAX_RESULTS, MIN_D
     - videos (list): List of dictionaries containing video details with views parsed as integers.
     """
     # Combine the Preferences into a search query
-    preference_query = " ".join(preferences)
-    search_query = f"{destination} travel guide {preference_query} Netherlands"
-
+    preference_query = " and ".join(preferences)  # Use 'and' to connect multiple preferences
+    search_query = f"Comprehensive travel guide to {destination} featuring {preference_query} longer than {MIN_DURATION} minutes"
+    
+    # Log the search query for debugging
+    # print(f"Search Query: {search_query}")
     # Initializing VideoSearch
     video_search = VideosSearch(search_query, limit=MAX_RESULTS)
 
