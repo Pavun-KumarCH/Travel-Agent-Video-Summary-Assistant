@@ -96,16 +96,16 @@ Watch our project video to see the Travel Agent Video Summary Assistant in actio
 ### Screenshots
 Below are some screenshots of the application:
 
-![Screenshot 1](assets\screenshots\Screenshot 2024-10-10 122605.png)
+![Screenshot 1](https://github.com/Pavun-KumarCH/Travel-Agent-Video-Summary-Assistant/blob/fd81e75d249d6c384e020f4e78eebb98f00c02be/assets/screenshots/Screenshot%202024-10-10%20122605.png)
 *Home Page*
 
-![Screenshot 2](assets\screenshots\Screenshot 2024-10-10 120839.png)
+![Screenshot 2](https://github.com/Pavun-KumarCH/Travel-Agent-Video-Summary-Assistant/blob/fd81e75d249d6c384e020f4e78eebb98f00c02be/assets/screenshots/Screenshot%202024-10-10%20120839.png)
 *Travel Agent page with personal preference's*
 
-![Screenshot 3](assets\screenshots\Screenshot 2024-10-10 121234.png)
+![Screenshot 3](https://github.com/Pavun-KumarCH/Travel-Agent-Video-Summary-Assistant/blob/fd81e75d249d6c384e020f4e78eebb98f00c02be/assets/screenshots/Screenshot%202024-10-10%20121234.png)
 *Summary Generation from the video's*
  
-![Screenshot 4](assets\screenshots\Screenshot 2024-10-10 121415.png)
+![Screenshot 4](https://github.com/Pavun-KumarCH/Travel-Agent-Video-Summary-Assistant/blob/fd81e75d249d6c384e020f4e78eebb98f00c02be/assets/screenshots/Screenshot%202024-10-10%20121415.png)
 *Itinerary generation and Agentic Chat Model*
 
 ## Contributing
